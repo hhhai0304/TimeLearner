@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">16dp</dimen>
+
+    <!-- Questions screen -->
+    <dimen name="clock_size">250dp</dimen>
+    <dimen name="question_text_size">30sp</dimen>
+    <dimen name="score_text_size">17sp</dimen>
+    <dimen name="dialog_padding">32dp</dimen>
+    <dimen name="button_margin_top">5dp</dimen>
+
+    <!-- Result screen -->
+    <dimen name="title_text_size">50sp</dimen>
+    <dimen name="content_text_size">30sp</dimen>
+
+</resources>

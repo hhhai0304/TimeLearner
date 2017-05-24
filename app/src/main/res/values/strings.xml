@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Time Learner</string>
+
+    <!-- Splash screen -->
+    <string name="err_fail_to_get_questions">Fail to get your questions, please try again</string>
+
+    <!-- Questions screen -->
+    <string name="what_time_is_it">What time is it?</string>
+    <string name="score">Score: %d</string>
+    <string name="question">Question %1$d/%2$d</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+
+    <!-- Result screen -->
+    <string name="great_job">Great job!</string>
+    <string name="result">You got %d points</string>
+    <string name="btn_play_again">Play again</string>
+    <string name="loading">Getting new data</string>
+</resources>

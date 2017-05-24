@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.h3solution.timelearner.MainActivity">
+
+    <RelativeLayout
+        android:padding="@dimen/default_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/txt_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/score_text_size"
+            tools:text="Score: 0" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/txt_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/score_text_size"
+            tools:text="Question 1/10" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/ll_clock_place"
+        android:orientation="horizontal"
+        android:layout_width="@dimen/clock_size"
+        android:layout_height="@dimen/clock_size">
+
+        <TextView
+            android:id="@+id/txt_day_night"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/question_text_size"
+            android:layout_marginEnd="@dimen/default_padding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PM" />
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/question_text_size"
+        android:layout_margin="@dimen/default_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_time_is_it" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="@dimen/default_padding"
+            android:paddingStart="@dimen/default_padding"
+            android:paddingRight="@dimen/default_padding"
+            android:paddingEnd="@dimen/default_padding"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="10:30" />
+
+            <Button
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:id="@+id/btnAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="12:30" />
+
+            <Button
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:id="@+id/btnAnswer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="14:30" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
